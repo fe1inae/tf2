@@ -1,4 +1,4 @@
-# Game Configuations
+# Game Configurations
 
 ### Thanks to:
 - Team Fortress 2
