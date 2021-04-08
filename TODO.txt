@@ -1,5 +1,0 @@
-- work on khud more
-- make more alt crosshair scripts
-- better organize toggles
-- more misc scripts like hide after shoot etc
-- make more null scripts and make own
