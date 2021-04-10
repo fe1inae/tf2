@@ -14,6 +14,3 @@ REM symlink files
 MKLINK "%GameRoot%csgo\cfg\autoexec.cfg" "%~dp0%csgo\cfg\autoexec.cfg"
 
 PAUSE
-
-
-

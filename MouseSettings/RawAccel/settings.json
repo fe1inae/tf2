@@ -1,0 +1,67 @@
+{
+  "GUISettings": {
+    "DPI": 1600,
+    "PollRate": 1000,
+    "ShowLastMouseMove": true,
+    "ShowVelocityAndGain": false,
+    "AutoWriteToDriverOnStartup": true
+  },
+  "Driver settings": {
+    "### Mode Types ###": "linear | classic | natural | naturalgain | power | motivity | noaccel",
+    "Degrees of rotation": 0.0,
+    "Degrees of angle snapping": 0.0,
+    "Use x as whole/combined accel": true,
+    "Accel modes": {
+      "x": "linear",
+      "y": "linear"
+    },
+    "Accel parameters": {
+      "x": {
+        "offset": 0.0,
+        "legacyOffset": false,
+        "acceleration": 0.0375,
+        "scale": 1.0,
+        "limit": 2.0,
+        "exponent": 2.0,
+        "midpoint": 10.0,
+        "weight": 1.0,
+        "legacyCap": 0.0,
+        "gainCap": 0.0,
+        "speedCap": 0.0
+      },
+      "y": {
+        "offset": 0.0,
+        "legacyOffset": false,
+        "acceleration": 0.0375,
+        "scale": 1.0,
+        "limit": 2.0,
+        "exponent": 2.0,
+        "midpoint": 10.0,
+        "weight": 1.0,
+        "legacyCap": 0.0,
+        "gainCap": 0.0,
+        "speedCap": 0.0
+      }
+    },
+    "Sensitivity multipliers": {
+      "x": 0.65,
+      "y": 0.65
+    },
+    "Negative directional multipliers": {
+      "x": 0.0,
+      "y": 0.0
+    },
+    "Stretches domain for horizontal vs vertical inputs": {
+      "domainXY": {
+        "x": 1.0,
+        "y": 1.0
+      },
+      "lpNorm": 2.0
+    },
+    "Stretches accel range for horizontal vs vertical inputs": {
+      "x": 1.0,
+      "y": 1.0
+    },
+    "Device ID": ""
+  }
+}
