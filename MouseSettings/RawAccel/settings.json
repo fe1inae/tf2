@@ -2,7 +2,7 @@
   "GUISettings": {
     "DPI": 1600,
     "PollRate": 1000,
-    "ShowLastMouseMove": true,
+    "ShowLastMouseMove": false,
     "ShowVelocityAndGain": false,
     "AutoWriteToDriverOnStartup": true
   },
@@ -12,19 +12,19 @@
     "Degrees of angle snapping": 0.0,
     "Use x as whole/combined accel": true,
     "Accel modes": {
-      "x": "linear",
-      "y": "linear"
+      "x": "power",
+      "y": "power"
     },
     "Accel parameters": {
       "x": {
         "offset": 0.0,
         "legacyOffset": false,
-        "acceleration": 0.0375,
+        "acceleration": 0.0,
         "scale": 1.0,
         "limit": 2.0,
-        "exponent": 2.0,
+        "exponent": 0.11,
         "midpoint": 10.0,
-        "weight": 1.0,
+        "weight": 0.8,
         "legacyCap": 0.0,
         "gainCap": 0.0,
         "speedCap": 0.0
@@ -32,20 +32,20 @@
       "y": {
         "offset": 0.0,
         "legacyOffset": false,
-        "acceleration": 0.0375,
+        "acceleration": 0.0,
         "scale": 1.0,
         "limit": 2.0,
-        "exponent": 2.0,
+        "exponent": 0.11,
         "midpoint": 10.0,
-        "weight": 1.0,
+        "weight": 0.8,
         "legacyCap": 0.0,
         "gainCap": 0.0,
         "speedCap": 0.0
       }
     },
     "Sensitivity multipliers": {
-      "x": 0.65,
-      "y": 0.65
+      "x": 1.0,
+      "y": 1.0
     },
     "Negative directional multipliers": {
       "x": 0.0,
