@@ -1,47 +1,41 @@
 	WeaponData
 {
 	// Attributes Base.
-	"printname"			"#TF_Weapon_Club"
+	"printname"				"#TF_Weapon_PDA_Engineer_Destroy"
 	"BuiltRightHanded"		"0"
-	"MeleeWeapon"			"1"
-	"weight"			"1"
-	"WeaponType"			"melee"
+	"weight"				"1"
+	"WeaponType"			"pda"
 	"ITEM_FLAG_NOITEMPICKUP" 	"1"
+	"AutoSwitchTo"			"0"
+	"MeleeWeapon"			"1"
+	"HasTeamSkins_Viewmodel"			"1"	
 	
-	// Attributes TF.
-	"Damage"			"65"
-	"TimeFireDelay"			"0.8"
-	"TimeIdle"			"5.0"
-	"HasTeamSkins_Viewmodel"			"1"
-
 	// Ammo & Clip
 	"primary_ammo"			"None"
 	"secondary_ammo"		"None"
 
 	// Buckets.	
-	"bucket"			"2"
+	"bucket"			"4"
 	"bucket_position"		"0"
 
 	// Model & Animation
-	"viewmodel"			"models/weapons/c_models/c_machete/c_machete.mdl"
-	"playermodel"		"models/weapons/c_models/c_machete/c_machete.mdl"
-	"anim_prefix"		"club"
+	//"viewmodel"     -viewmodel is now defined in _items_main.txt
+	//"playermodel"   -playermodel is now defined in _items_main.txt
+	"anim_prefix"			"pda"
 
 	// Sounds for the weapon. There is a max of 16 sounds per category (i.e. max 16 "single_shot" sounds)
 	SoundData
 	{
-		"melee_miss"		"Weapon_Machete.Miss"
-		"melee_hit"		"Weapon_Machete.HitFlesh"
-		"melee_hit_world"	"Weapon_Machete.HitWorld"
-		"burst"			"Weapon_Machete.MissCrit"
 	}
+
+	"DontDrop"	"1"
 
 	// Weapon Sprite data is loaded by the Client DLL.
 	TextureData
 	{
 		"weapon"
 		{
-				"file"		"sprites/bucket_machete"
+				"file"		"sprites/bucket_pda_destroy"
 				"x"		"0"
 				"y"		"0"
 				"width"		"200"
@@ -49,12 +43,13 @@
 		}
 		"weapon_s"
 		{	
-				"file"		"sprites/bucket_machete"
+				"file"		"sprites/bucket_pda_destroy"
 				"x"		"0"
 				"y"		"0"
 				"width"		"200"
 				"height"		"128"
 		}
+
 
 		"ammo"
 		{
@@ -67,7 +62,7 @@
 
 		"crosshair"
 		{
-				"file"		"vgui/replay/thumbnails/melee"
+				"file"		"vgui/replay/thumbnails/dot"
 				"x"		"0"
 				"y"		"0"
 				"width"		"64"

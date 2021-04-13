@@ -1,53 +1,48 @@
 WeaponData
 {
 	// Attributes Base.
-	"printname"		"#TF_Weapon_SMG"
+	"printname"		"#TF_Weapon_SyringeGun"
 	"BuiltRightHanded"	"0"
-	"weight"		"2"
-	"WeaponType"		"secondary"
+	"weight"		"4"
+	"WeaponType"		"primary"
 	"ITEM_FLAG_NOITEMPICKUP" 	"1"
-	"HasTeamSkins_Viewmodel"			"1"	
 		
 	// Attributes TF.
-	"Damage"		"8"
+	"Damage"		"10"
 	"Range"			"8192"
 	"BulletsPerShot"	"1"
-	"Spread"		"0.025"
-	"TimeIdle"		"10.0"
-	"TimeIdleEmpty"		"1.0"
+	"Spread"		"0.0"
 	"TimeFireDelay"		"0.1"
-	"ProjectileType"	"projectile_bullet"
-	"BrassModel"		"models/weapons/shells/shell_pistol.mdl"
+	"ProjectileType"	"projectile_syringe"
+	"HasTeamSkins_Viewmodel"		"1"
 	"UseRapidFireCrits"	"1"
+	"HasTeamSkins_Worldmodel"	"1"
 
 	// Ammo & Clip.
-	"primary_ammo"		"TF_AMMO_SECONDARY"
+	"primary_ammo"		"TF_AMMO_PRIMARY"
 	"secondary_ammo"	"None"
-	clip_size		25
-	default_clip		25
+	clip_size		40
+	default_clip		40
 
 	// Buckets.
-	"bucket"		"1"
+	"bucket"		"0"
 	"bucket_position"	"0"
-	"TracerEffect"		"bullet_pistol_tracer01"
 
 
 	// Muzzleflash
-	"MuzzleFlashParticleEffect" "muzzle_smg"
+	"MuzzleFlashParticleEffect" "muzzle_syringe"
 
 	// Animation.
-	"viewmodel"			"models/weapons/c_models/c_smg/c_smg.mdl"
-	"playermodel"		"models/weapons/c_models/c_smg/c_smg.mdl"
-	"anim_prefix"	"ac"
+	"anim_prefix"		"ac"
 
 	// Sounds.
 	// Max of 16 per category (ie. max 16 "single_shot" sounds).
 	SoundData
 	{
-		"reload"		"Weapon_SMG.WorldReload"
-		"empty"			"Weapon_SMG.ClipEmpty"	
-		"single_shot"		"Weapon_SMG.Single"
-		"burst"			"Weapon_SMG.SingleCrit"
+		"reload"			"Weapon_SyringeGun.WorldReload"
+		"empty"			"Weapon_SyringeGun.ClipEmpty"	
+		"single_shot"		"Weapon_SyringeGun.Single"
+		"burst"			"Weapon_SyringeGun.SingleCrit"
 	}
 
 	// Weapon Sprite data is loaded by the Client DLL.
@@ -55,7 +50,7 @@ WeaponData
 	{
 		"weapon"
 		{
-				"file"		"sprites/bucket_smg"
+				"file"		"sprites/bucket_syrgun_red"
 				"x"		"0"
 				"y"		"0"
 				"width"		"200"
@@ -63,7 +58,7 @@ WeaponData
 		}
 		"weapon_s"
 		{	
-				"file"		"sprites/bucket_smg"
+				"file"		"sprites/bucket_syrgun_blue"
 				"x"		"0"
 				"y"		"0"
 				"width"		"200"

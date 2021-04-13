@@ -6,8 +6,7 @@ WeaponData
 	"weight"				"3"
 	"WeaponType"			"primary"
 	"ITEM_FLAG_NOITEMPICKUP" 	"1"
-	"HasTeamSkins_Viewmodel"			"1"	
-
+	
 	// Primary Attributes
 	"Damage"				"6"
 	"Range"					"8192"
@@ -82,7 +81,7 @@ WeaponData
 		}
 		"crosshair"
 		{
-				"file"		"vgui/replay/thumbnails/scattergun"
+				"file"		"vgui/replay/thumbnails/dot"
 				"x"		"0"
 				"y"		"0"
 				"width"		"64"
