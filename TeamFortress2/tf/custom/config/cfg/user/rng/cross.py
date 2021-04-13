@@ -9,7 +9,7 @@ bb=[]
 
 string = "alias rng.cross \"cross.0\"\n"
 for c in range(count):
-    (r, g, b) = tuple(round(b * 255) for b in colorsys.hsv_to_rgb(1/count+(1/count*c),1,1))
+    (r, g, b) = tuple(round(b * 255) for b in colorsys.hsv_to_rgb(1/count+(1/count*c),0.5A,1))
     rr.append(r)
     gg.append(g)
     bb.append(b)
