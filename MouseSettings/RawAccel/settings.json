@@ -12,17 +12,17 @@
     "Degrees of angle snapping": 0.0,
     "Use x as whole/combined accel": true,
     "Accel modes": {
-      "x": "noaccel",
-      "y": "noaccel"
+      "x": "power",
+      "y": "power"
     },
     "Accel parameters": {
       "x": {
         "offset": 0.0,
         "legacyOffset": false,
         "acceleration": 0.0,
-        "scale": 1.0,
+        "scale": 3.0,
         "limit": 2.0,
-        "exponent": 2.0,
+        "exponent": 0.2,
         "midpoint": 10.0,
         "weight": 1.0,
         "legacyCap": 0.0,
@@ -33,9 +33,9 @@
         "offset": 0.0,
         "legacyOffset": false,
         "acceleration": 0.0,
-        "scale": 1.0,
+        "scale": 3.0,
         "limit": 2.0,
-        "exponent": 2.0,
+        "exponent": 0.2,
         "midpoint": 10.0,
         "weight": 1.0,
         "legacyCap": 0.0,
@@ -44,8 +44,8 @@
       }
     },
     "Sensitivity multipliers": {
-      "x": 1.0,
-      "y": 1.0
+      "x": 0.5,
+      "y": 0.5
     },
     "Negative directional multipliers": {
       "x": 0.0,
