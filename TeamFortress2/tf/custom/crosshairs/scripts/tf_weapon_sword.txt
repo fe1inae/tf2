@@ -68,7 +68,7 @@
 
 		"crosshair"
 		{
-				"file"		"vgui/replay/thumbnails/dot"
+				"file"		"vgui/replay/thumbnails/sword"
 				"x"		"0"
 				"y"		"0"
 				"width"		"64"

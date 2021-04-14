@@ -82,7 +82,7 @@ WeaponData
 		}
 		"crosshair"
 		{
-				"file"		"vgui/replay/thumbnails/dot"
+				"file"		"vgui/replay/thumbnails/rocketlauncher_fireball"
 				"x"		"0"
 				"y"		"0"
 				"width"		"64"

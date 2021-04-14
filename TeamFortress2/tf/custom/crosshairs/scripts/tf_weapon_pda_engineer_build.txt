@@ -59,7 +59,7 @@ WeaponData
 
 		"crosshair"
 		{
-				"file"		"vgui/replay/thumbnails/dot"
+				"file"		"vgui/replay/thumbnails/pda_engineer_build"
 				"x"		"0"
 				"y"		"0"
 				"width"		"64"

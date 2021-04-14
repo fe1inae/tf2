@@ -84,7 +84,7 @@ WeaponData
 		}
 		"crosshair"
 		{
-				"file"		"vgui/replay/thumbnails/dot"
+				"file"		"vgui/replay/thumbnails/grenadelauncher"
 				"x"		"0"
 				"y"		"0"
 				"width"		"64"

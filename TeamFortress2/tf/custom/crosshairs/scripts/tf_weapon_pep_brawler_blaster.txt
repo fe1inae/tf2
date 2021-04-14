@@ -82,7 +82,7 @@ WeaponData
 		}
 		"crosshair"
 		{
-				"file"		"vgui/replay/thumbnails/dot"
+				"file"		"vgui/replay/thumbnails/pep_brawler_blaster"
 				"x"		"0"
 				"y"		"0"
 				"width"		"64"

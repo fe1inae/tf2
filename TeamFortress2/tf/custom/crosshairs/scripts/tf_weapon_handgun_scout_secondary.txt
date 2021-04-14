@@ -76,7 +76,7 @@ WeaponData
 		}
 		"crosshair"
 		{
-				"file"		"vgui/replay/thumbnails/dot"
+				"file"		"vgui/replay/thumbnails/handgun_scout_secondary"
 				"x"		"0"
 				"y"		"0"
 				"width"		"64"

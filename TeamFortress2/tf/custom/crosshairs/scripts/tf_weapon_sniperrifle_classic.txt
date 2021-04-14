@@ -77,7 +77,7 @@ WeaponData
 		}
 		"crosshair"
 		{
-				"file"		"vgui/replay/thumbnails/dot"
+				"file"		"vgui/replay/thumbnails/sniperrifle_classic"
 				"x"		"0"
 				"y"		"0"
 				"width"		"64"
