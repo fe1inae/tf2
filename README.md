@@ -1,6 +1,7 @@
 # Game Configurations
 
-***WARNING: seriously, just dont try to install this. its just for myself to stay more organized and another way to waste time. if you know what youre doing (i dont) and see any neat concepts you like, feel free to grab. spread knowledge ^._.^***
+***WARNING: seriously, just dont try to install this. its just for myself to stay more organized and another way to waste time. if you know what youre doing (i dont) and see any neat concepts you like, feel free to grab.***
+**spread knowledge ^.^**
 
 ### Thanks to:
 - Team Fortress 2
