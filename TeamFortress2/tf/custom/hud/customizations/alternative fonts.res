@@ -22,4 +22,5 @@
 //#base "../resource/scheme/alternative_fonts/fonts_rubik.res"			// RUBIK
 //#base "../resource/scheme/alternative_fonts/fonts_surface.res"		// SURFACE
 //#base "../resource/scheme/alternative_fonts/fonts_tf2.res"			// TF2
-#base "../resource/scheme/alternative_fonts/fonts_nova.res"
+//#base "../resource/scheme/alternative_fonts/fonts_nova.res"
+#base "../resource/scheme/alternative_fonts/fonts_oxygen.res"

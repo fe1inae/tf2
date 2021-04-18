@@ -1,3 +1,0 @@
-modified hypnotize hud
-
-**VERY SCUFFED AND BUGGY RN, I DONT RECOMMEND YOU USE THIS**

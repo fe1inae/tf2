@@ -2,13 +2,14 @@
 {
 	"CDamageAccountPanel"
 	{
-		"fieldName"									"CDamageAccountPanel"
-		"delta_item_x"								"0"
-		"delta_item_start_y"							"0"
-		"delta_item_end_y"							"0"
-		"NegativeColor"								"Damage Numbers"
-		"delta_lifetime"							"4"
-		"delta_item_font"							"Game 22 Shadow"
+		"fieldName"	                                "CDamageAccountPanel"
+		"text_x"	                                    "0"
+		"text_y"	                                    "0"
+		"delta_item_end_y"	                        "0"
+		"PositiveColor"	                            "GreenSolid"
+		"delta_lifetime"	                            "2"
+		"delta_item_font"	                            "Game 18"
+		"delta_item_font_big"	                        "Game 18"
 	}
 	
 	"DamageAccountValue"
