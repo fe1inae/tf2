@@ -1,119 +1,43 @@
-#base "../customizations/pausemenu background.res"
-
-"GameMenu"
+"GameMenu" [$WIN32]
 {
-	//////////////////////////////////////////////////////////////////////////////////////////////////////////////
-	/////////////////////////////////////////////////MAIN BUTTONS/////////////////////////////////////////////////
-	//////////////////////////////////////////////////////////////////////////////////////////////////////////////
-	
-	"Servers"
+	"VRModeButton"
 	{
-		"label" 									"SERVERS"
-		"command" 									"OpenServerBrowser"
-	}
-	"Create"
-	{
-		"label"										"CREATE"
-		"command"									"OpenCreateMultiplayerGameDialog"
-	}
-	"Items"
-	{
-		"label"										"ITEMS"
-		"command"									"engine open_charinfo"
-	}
-	"Store"
-	{
-		"label"										"STORE"
-		"command"									"engine open_store"
-	}
-	"Settings"
-	{
-		"label"										"OPTIONS"
-		"command"									"OpenOptionsDialog"
-	}
-	"AdvancedSettings"
-	{
-		"label"										"ADVANCED"
-		"command"									"opentf2options"
-	}
-	
-	"Walkway"
-	{
-		"label"										"WALKWAY"
-		"command"                                   "engine sv_allow_point_servercommand always; map tr_walkway_fix"
-	}
-	//////////////////////////////////////////////////////////////////////////////////////////////////////////////
-	/////////////////////////////////////////////IN-GAME ONLY BUTTONS/////////////////////////////////////////////
-	//////////////////////////////////////////////////////////////////////////////////////////////////////////////
-	
-	"Vote"
-	{
-		"label"										"y"
-		"command"									"callvote"
-		"OnlyInGame" 								"1"
-	}
-	"Mute"
-	{
-		"label"										"h"
-		"command"									"OpenMutePlayerDialog"
-		"OnlyInGame" 								"1"
-	}
-	"Report"
-	{
-		"label"										"f"
-		"command"									"OpenReportPlayerDialog"
-		"OnlyInGame"								"1"
+		"label" 			"#MMenu_VRMode_Activate"
+		"command" 			"engine vr_toggle"
+		"subimage"			"glyph_vr"
+		"OnlyWhenVREnabled" "1"
 	}
 
-	//////////////////////////////////////////////////////////////////////////////////////////////////////////////
-	//////////////////////////////////////////////BOTTOM MENU BUTTONS/////////////////////////////////////////////
-	//////////////////////////////////////////////////////////////////////////////////////////////////////////////
-	
-	"Contracker"
+	// These buttons are only shown while in-game
+	// and also are positioned by the .res file
+	"CallVoteButton"
 	{
-		"label" 									"B"
-		"command" 									"questlog"
-		"tooltip" 									"Contracker"
+		"label"			""
+		"command"		"callvote"
+		"OnlyInGame"	"1"
+		"subimage" 		"replay/thumbnails/softicons/vote"
 	}
-	"Streams"
+	"MutePlayersButton"
 	{
-		"label" 									"0"
-		"command" 									"watch_stream"
-		"tooltip" 									"Streams"
+		"label"			""
+		"command"		"OpenPlayerListDialog"
+		"OnlyInGame"	"1"
+		"subimage" 		"replay/thumbnails/softicons/mic"
 	}
-	"HomeServer"
+	"RequestCoachButton"
 	{
-		"label" 									"w"
-		"command" 									"engine" 				//"engine connect *server ip*"
-		"tooltip" 									"Favorite Server"
+		"label"			""
+		"command"		"engine cl_coach_find_coach"
+		"OnlyInGame"	"1"
+		"subimage" 		"icon_whistle"
+		"tooltip" 		"#MMenu_RequestCoach"
 	}
-	"DemoUI"
+	"ReportPlayerButton"
 	{
-		"label" 									"F"
-		"command" 									"engine demoui"
-		"tooltip" 									"DemoUI"
+		"label"			""
+		"command"		"OpenReportPlayerDialog"
+		"OnlyInGame"	"1"
+		"subimage"		"glyph_alert"
+		"tooltip"		"#MMenu_ReportPlayer"
 	}
-	"Achievements"
-	{
-		"label"										"V"
-		"command"									"OpenAchievementsDialog"
-		"tooltip" 									"Achievements"
-	}
-	"Replays"
-	{
-		"label"										"^"
-		"command"									"engine replay_reloadbrowser"
-		"tooltip" 									"Replays"
-	}
-	"Workshop"
-	{
-		"label"										"{"
-		"command"									"engine OpenSteamWorkshopDialog"
-		"tooltip" 									"Workshop"
-	}
-	
-	//////////////////////////////////////////////////////////////////////////////////////////////////////////////
-	/////////////////////////////////////////////////IN-GAME TOOLS////////////////////////////////////////////////
-	//////////////////////////////////////////////////////////////////////////////////////////////////////////////
-	
 }
