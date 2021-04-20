@@ -1,4 +1,0 @@
-[submodule "TeamFortress2/tf/custom/hud"]
-	path = TeamFortress2/tf/custom/hud
-	url = https://github.com/Hypnootize/hypnotize-hud.git
-	ignore = dirty
