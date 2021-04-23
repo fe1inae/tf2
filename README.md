@@ -1,8 +1,6 @@
 # Game Configurations
 
-***WARNING: seriously, just dont try to install this. its buggy, spaghetty, and incredibly hacky, and just for another way for me to waste time.***
-
-**if you know what youre doing (i dont) and see any neat concepts you like, feel free to grab. spread knowledge ^.^**
+***WARNING: seriously, just dont try to install this. its buggy, spaghetty, incredibly hacky, and just for another way for me to waste time.***
 
 ![autoexec message](Utilities/Media/autoexec.png)
 
