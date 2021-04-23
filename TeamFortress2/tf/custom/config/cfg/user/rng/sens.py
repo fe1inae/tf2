@@ -24,5 +24,5 @@ for i in biglist:
         string += "alias rng.sens sens.0\"\n"
     c+=1
     
-string += "echo \"[felinae] random sensitivity loaded\""
+string += "echo \"[felinae.random] random sensitivity loaded\""
 f.write(string)

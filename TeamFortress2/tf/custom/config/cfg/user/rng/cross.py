@@ -20,5 +20,5 @@ for c in range(count):
     else:
         string += "alias rng.cross cross.0\"\n"
         
-string += "echo \"[felinae] rainbow crosshair loaded\""
+string += "echo \"[felinae.random] rainbow crosshair loaded\""
 f.write(string)
