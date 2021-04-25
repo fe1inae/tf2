@@ -9,4 +9,4 @@
 	- [mastercomfig](https://github.com/mastercomfig/mastercomfig) for the fantastic base of my tf2 cfg
 	- [hypnotize](https://github.com/Hypnootize/hypnotize-hud) for the hud im tweaking
 	- [jooonior](https://github.com/jooonior/tf2-loadouts-script) for a script i would be too lazy to make myself
-	- [cloverdia](https://github.com/clovervidia/clovervidias-captions) for caption information/resources
+	- [clovervidia](https://github.com/clovervidia/clovervidias-captions) for caption information/resources
