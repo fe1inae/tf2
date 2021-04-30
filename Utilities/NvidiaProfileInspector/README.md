@@ -1,0 +1,1 @@
+https://github.com/Orbmu2k/nvidiaProfileInspector
