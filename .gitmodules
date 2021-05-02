@@ -1,3 +1,3 @@
 [submodule "TeamFortress2/tf/custom/hud"]
 	path = TeamFortress2/tf/custom/hud
-	url = https://github.com/fe1inae/hypnotize-hud.git
+	url = https://github.com/fe1inae/hud.git
