@@ -1,1 +1,1 @@
--novid -nojoy -nosteamcontroller -nohltv -particles 1 -precachefontchars -no_texture_stream -r_emulate_gl -console
+-novid -nojoy -nosteamcontroller -nohltv -particles 1 -precachefontchars -no_texture_stream -console
