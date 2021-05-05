@@ -3,8 +3,8 @@
 :::::::::::::::::::
 :: PRE RUN STUFF ::
 :::::::::::::::::::
-CALL		"%~dp0%Utilities\RestartStuff.bat"
-CALL		"%~dp0%TeamFortress2\setup.bat"
+CALL	"%~dp0%..\Utilities\RestartStuff.bat"
+CALL	"%~dp0%..\TeamFortress2\setup.bat"
 
 ::::::::::::
 :: LAUNCH ::
@@ -21,6 +21,5 @@ TIMEOUT /T 1
 GOTO SEARCH
 
 :FOUND
-wmic process where name="hl2.exe" CALL setpriority "above normal"
-REM fucking cba, i resort to powershell
-PowerShell "$Process = Get-Process hl2; $Process.ProcessorAffinity=14"
+WMIC		process where name="hl2.exe" CALL setpriority "above normal"
+POWERSHELL	"$Process = Get-Process hl2; $Process.ProcessorAffinity=14"
