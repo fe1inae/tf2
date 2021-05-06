@@ -12,6 +12,12 @@ for /F "delims=|" %%F IN ('DIR /B /S compile.bat') DO (
 )
 CD "%~dp0"
 
+for /F "delims=|" %%F IN ('DIR /B /S compile.py') DO (
+	CD %%~dpF
+	CALL python compile.py
+)
+CD "%~dp0"
+
 :: symlink custom folders
 FOR /D %%D IN ("%~dp0tf\custom\*") DO (
 	IF NOT EXIST "%GameRoot%tf\custom\%%~nD" ( MKLINK /D "%GameRoot%tf\custom\%%~nD" "%%D" )
