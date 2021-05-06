@@ -3,7 +3,7 @@ SETLOCAL
 
 :: set the game directory
 SET GameRoot=C:\Program Files (x86)\Steam\steamapps\common\Team Fortress 2\
-SET Root=%~dp0..\
+SET Root=%~dp0%..\
 
 :: run compile scripts
 for /F "delims=|" %%F IN ('DIR /B /S compile.bat') DO (
