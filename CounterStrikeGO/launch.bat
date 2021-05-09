@@ -1,1 +1,0 @@
-START /B Utilities\SteamPriorityLauncher\SteamPriorityLauncher.exe -gameID 730 -gameExe csgo.exe -priority A -affinity 1;2;3
