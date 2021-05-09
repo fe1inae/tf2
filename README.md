@@ -4,6 +4,8 @@
 
 ![autoexec message](Utilities/Media/autoexec.png)
 
+note: i make heavy use of symlinks and you will either need to run the setup scripts as admin, or enable developer mode in windows 10
+
 ### Thanks to:
 - Team Fortress 2
 	- [mastercomfig](https://github.com/mastercomfig/mastercomfig) for the fantastic base of my tf2 cfg
