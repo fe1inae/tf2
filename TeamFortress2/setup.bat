@@ -23,6 +23,11 @@ FOR /D %%D IN ("%~dp0tf\custom\*") DO (
 	IF NOT EXIST "%GameRoot%tf\custom\%%~nD" ( MKLINK /D "%GameRoot%tf\custom\%%~nD" "%%D" )
 )
 
+:: symlink cfg folders
+FOR /D %%D IN ("%~dp0tf\cfg\*") DO (
+	IF NOT EXIST "%GameRoot%tf\cfg\%%~nD" ( MKLINK /D "%GameRoot%tf\cfg\%%~nD" "%%D" )
+)
+
 :: symlink misc files
 FOR %%F IN ("%~dp0tf\*") DO (
 	IF NOT EXIST "%GameRoot%tf\%%~nxF" ( MKLINK "%GameRoot%tf\%%~nxF" "%%F" )
