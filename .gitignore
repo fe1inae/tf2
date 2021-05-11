@@ -4,3 +4,4 @@ TeamFortress2/tf/custom/captions/resource/closecaption_custom.dat
 TeamFortress2/tf/custom/crosshairs/materials/vgui/replay/thumbnails/*.vmt
 TeamFortress2/tf/custom/crosshairs/materials/vgui/replay/thumbnails/*.vtf
 TeamFortress2/tf/cfg/logs/*/*.log
+TeamFortress2/tf/cfg/logs/console.log
