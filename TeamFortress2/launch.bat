@@ -1,5 +1,10 @@
 @ECHO OFF
 
+:: TEMP IDC
+TASKKILL /IM "steam.exe" /F
+TIMEOUT /T 1
+START /B "C:\Program Files (x86)\Steam\steam.exe -no-browser +open steam://open/minigameslist"
+
 :::::::::::::::::::
 :: PRE RUN STUFF ::
 :::::::::::::::::::
