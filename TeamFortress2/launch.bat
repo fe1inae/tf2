@@ -1,9 +1,6 @@
 @ECHO OFF
 
-:: TEMP IDC
-TASKKILL /IM "steam.exe" /F
-TIMEOUT /T 1
-START /B "C:\Program Files (x86)\Steam\steam.exe -no-browser +open steam://open/minigameslist"
+CALL "%~dp0%..\Utilities\steam_low.bat"
 
 :::::::::::::::::::
 :: PRE RUN STUFF ::
@@ -22,7 +19,7 @@ START /B "" "steam://rungameid/440"
 :SEARCH
 TASKLIST | FIND "hl2.exe"
 IF %ERRORLEVEL% EQU 0 (GOTO FOUND)
-TIMEOUT /T 1
+TIMEOUT /NOBREAK /T 1
 GOTO SEARCH
 
 :FOUND
