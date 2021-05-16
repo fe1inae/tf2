@@ -1,2 +1,2 @@
-MOUSE:    Logitech G305 @ 1600 CPI
-MOUSEPAD: Zowie G-SR-SE
+MOUSE    : Logitech G305 @ 1600 CPI
+MOUSEPAD : Zowie G-SR-SE
