@@ -16,12 +16,4 @@ START /B "" "steam://rungameid/440"
 :::::::::::::::::::::::::::
 :: SET PRIORITY/AFFINITY ::
 :::::::::::::::::::::::::::
-:SEARCH
-TASKLIST | FIND "hl2.exe"
-IF %ERRORLEVEL% EQU 0 (GOTO FOUND)
-TIMEOUT /NOBREAK /T 1
-GOTO SEARCH
-
-:FOUND
-WMIC		process where name="hl2.exe" CALL setpriority "above normal"
-POWERSHELL	"$Process = Get-Process hl2; $Process.ProcessorAffinity=14"
+START /B CMD /C  "%~dp0%..\Utilities\set_priority.bat" "hl2"
