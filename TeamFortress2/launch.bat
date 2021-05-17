@@ -1,12 +1,12 @@
 @ECHO OFF
 
-CALL "%~dp0%..\Utilities\steam_low.bat"
+START /B CMD /C CALL "%~dp0%..\Utilities\steam_low.bat"
+START /B CMD /C CALL "%~dp0%..\Utilities\restart_stuff.bat"
 
 :::::::::::::::::::
 :: PRE RUN STUFF ::
 :::::::::::::::::::
-CALL	"%~dp0%..\Utilities\RestartStuff.bat"
-CALL	"%~dp0%..\TeamFortress2\setup.bat"
+CALL "%~dp0%..\TeamFortress2\setup.bat"
 
 ::::::::::::
 :: LAUNCH ::
