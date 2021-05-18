@@ -1,4 +1,4 @@
-@ECHO ON
+@ECHO OFF
 
 IF %1.==. (GOTO:EOF)
 SET COUNT=0
