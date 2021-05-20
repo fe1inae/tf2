@@ -16,4 +16,4 @@ START /B "" "steam://rungameid/440"
 :::::::::::::::::::::::::::
 :: SET PRIORITY/AFFINITY ::
 :::::::::::::::::::::::::::
-START /B CMD /C  "%~dp0%..\Utilities\set_priority.bat" "hl2"
+CALL "%~dp0%..\Utilities\set_priority.bat" "hl2"
