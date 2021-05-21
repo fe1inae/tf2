@@ -1,5 +1,8 @@
 *.cache
 .nomedia
+*.swp
+*~
+\#*\#
 TeamFortress2/tf/custom/captions/resource/closecaption_custom.dat
 TeamFortress2/tf/custom/crosshairs/materials/vgui/replay/thumbnails/*.vmt
 TeamFortress2/tf/custom/crosshairs/materials/vgui/replay/thumbnails/*.vtf
