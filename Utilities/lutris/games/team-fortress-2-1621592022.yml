@@ -1,0 +1,9 @@
+game:
+  args: -steam -no-browser -game tf -novid -nojoy -nosteamcontroller -nohltv -particles
+    1 -precachefontchars -no_texture_stream -console
+  exe: /home/feliane/.local/share/Steam/steamapps/common/Team Fortress 2/hl2_linux
+  working_dir: ~/.local/share/Steam/steamapps/common/Team Fortress 2
+linux: {}
+system:
+  disable_compositor: true
+  restore_gamma: true
