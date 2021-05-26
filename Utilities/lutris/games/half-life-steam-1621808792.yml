@@ -1,0 +1,11 @@
+game:
+  appid: '70'
+steam:
+  lsi_steam: false
+  steam_native_runtime: false
+system:
+  prefer_system_libs: false
+  reset_desktop: false
+  restore_gamma: false
+  sdl_video_fullscreen: '1'
+  terminal_app: /usr/bin/kitty

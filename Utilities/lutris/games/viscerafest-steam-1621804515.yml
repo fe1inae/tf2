@@ -1,0 +1,9 @@
+game:
+  appid: '1406780'
+  run_without_steam: false
+steam:
+  start_in_big_picture: false
+  steam_native_runtime: true
+system:
+  mangohud: ''
+  prefer_system_libs: true
