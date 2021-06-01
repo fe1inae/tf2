@@ -10,5 +10,7 @@ system:
     __GL_THREADED_OPTIMIZATION: '1'
   prefer_system_libs: true
   prime: false
-  pulse_latency: true
+  pulse_latency: false
   sdl_video_fullscreen: '0'
+  terminal: false
+  terminal_app: ''
